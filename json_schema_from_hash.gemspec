@@ -33,7 +33,6 @@ Gem::Specification.new do |spec|
 
   # For more information and examples about making a new gem, checkout our
   # guide at: https://bundler.io/guides/creating_gem.html
-  spec.add_dependency 'activesupport', '~> 6.1', '>= 6.1.4.1'
   spec.add_development_dependency 'pry'
   spec.add_development_dependency 'pry-byebug'
 end

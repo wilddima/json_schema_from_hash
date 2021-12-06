@@ -24,7 +24,7 @@ RSpec.describe JsonSchemaFromHash do
     end
   end
 
-  context do
+  context 'entity is obfuscated_data' do
     let(:entity) do
       {
         "fruits": %w[apple orange pear],
